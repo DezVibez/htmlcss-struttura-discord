@@ -25,8 +25,8 @@ height: 2500px}
 
 
 .contenuto {background-color: white;
-margin: auto;
-height: 100%;
+margin:  auto;
+height: 1900px;
 width: 60%}
 
 .blocco-header {width: 100%;
@@ -41,7 +41,7 @@ height: 30px;
 background: black;
 }
 
-ul {
+.ul-header {
 margin: auto; 
 display: flex;
 align-items: center;
@@ -51,7 +51,7 @@ list-style-type: none;
 
 }
 
-li {margin: 0 10px;
+.li-header {margin: 0 10px;
 color: white;}
  
 .flex-nav {
@@ -107,12 +107,27 @@ margin-bottom: 20px;
 }
 
 
-.section-bottom {width: 100%;
-height: 300px;}
 
-.piè-di-pagina { 
+
+footer { 
+    background-color: black;
+    height: 300px;
+
+}
+
+.contenuto-footer {
     background-color: gray;
     width: 60%;
     height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ul-footer {
+
+    color: aliceblue;
+    list-style-type: none;
 }
 
