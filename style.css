@@ -75,3 +75,18 @@ p {text-align: center;}
 background-color: aquamarine;
 margin: 40px auto;}
 
+section {
+    width: 70%;
+    height: 300px;
+    background-color: coral;
+    padding: 20px;
+    margin: 40px 126px;
+    float: left;
+}
+
+.immagine-section { background-color: black;
+height: 100%;
+width: 50%;
+float: left;}
+
+
