@@ -112,17 +112,33 @@ margin-bottom: 20px;
 footer { 
     background-color: black;
     height: 300px;
-
 }
 
-.contenuto-footer {
+
+
+#quadrato {
+    height: 50%;
+    width: 20%;
+    background-color: rgb(20, 232, 91);
+}
+
+
+.contenuto-footer-flex {
     background-color: gray;
     width: 60%;
     height: 300px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(6, 119, 247);
+  
+    
 }
+
+.flex-ul-footer {
+    display: flex;
+    justify-content: space-between;}
 
 
 .ul-footer {
@@ -130,4 +146,9 @@ footer {
     color: aliceblue;
     list-style-type: none;
 }
+
+
+
+
+
 
